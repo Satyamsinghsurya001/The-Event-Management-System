@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Eventify</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Eventify</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="create-event.html">Create Event</a></li>
+        <li><a href="login.html">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="dashboard-container">
+    <h1>Welcome to Your Dashboard</h1>
+    <div class="dashboard-grid">
+      <!-- Card 1: Upcoming Events -->
+      <div class="dashboard-card">
+        <h2>Upcoming Events</h2>
+        <ul>
+          <li>Tech Conference 2025 - Jan 25, 2025</li>
+          <li>AI Workshop - Feb 10, 2025</li>
+        </ul>
+      </div>
+
+      <!-- Card 2: Past Events -->
+      <div class="dashboard-card">
+        <h2>Past Events</h2>
+        <ul>
+          <li>Web Development Bootcamp - Dec 15, 2024</li>
+          <li>Data Science Summit - Nov 20, 2024</li>
+        </ul>
+      </div>
+
+      <!-- Card 3: Manage Events -->
+      <div class="dashboard-card">
+        <h2>Your Events</h2>
+        <ul>
+          <li>Python Workshop <a href="edit-event.html">Edit</a> | <a href="#">Delete</a></li>
+          <li>Cloud Computing Webinar <a href="edit-event.html">Edit</a> | <a href="#">Delete</a></li>
+        </ul>
+        <a href="create-event.html" class="btn">Create New Event</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Eventify. All rights reserved.</p>
+  </footer>
+</body>
+</html>

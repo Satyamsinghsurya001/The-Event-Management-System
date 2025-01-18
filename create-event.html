@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Event - Eventify</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Eventify</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="login.html">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="form-container">
+    <h2>Create New Event</h2>
+    <form action="event-success.html" method="post">
+      <label for="event-name">Event Name:</label>
+      <input type="text" id="event-name" name="event-name" required>
+
+      <label for="event-date">Date:</label>
+      <input type="date" id="event-date" name="event-date" required>
+
+      <label for="event-time">Time:</label>
+      <input type="time" id="event-time" name="event-time" required>
+
+      <label for="event-location">Location:</label>
+      <input type="text" id="event-location" name="event-location" required>
+
+      <label for="event-description">Description:</label>
+      <textarea id="event-description" name="event-description" rows="5" required></textarea>
+
+      <label for="event-image">Event Image:</label>
+      <input type="file" id="event-image" name="event-image" accept="image/*">
+
+      <button type="submit" class="btn">Create Event</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Eventify. All rights reserved.</p>
+  </footer>
+</body>
+</html>
